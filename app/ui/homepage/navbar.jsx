@@ -11,7 +11,7 @@ import defaultProfile from "@/assets/images/profile.png";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsToggleMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
-  const [isLoggedIn, setIsloggedIn] = useState(false);
+  const [isLoggedIn, setIsloggedIn] = useState(true);
 
   const toggleMobileMenu = () => setIsToggleMenuOpen((prev) => !prev);
   const toggleProfileMenu = () => setIsProfileMenuOpen((prev) => !prev);
